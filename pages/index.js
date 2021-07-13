@@ -11,7 +11,6 @@ function ProfileSidebar(propriedades) {
   )
 }
 
-
 export default function Home() {
   const githunUser = 'viniciosc';
   const pessoasFavoritas = [
