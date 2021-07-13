@@ -33,9 +33,10 @@ export default function Home() {
         <div style={{ gridArea: 'welcomeArea' }}>
           <Box className="title">
             Bem vindo(a)
+
+            <OrkutNostalgicIconSet />
           </Box>
 
-          <OrkutNostalgicIconSet/>
         </div>
 
         <div className="profileRelationsArea" style={{ gridArea: 'profileRelationsArea' }}>
@@ -48,7 +49,7 @@ export default function Home() {
                 return (
                   <li>
                     <a href={`/users/${githunUser}`} key={githunUser}>
-                      <img src={`https://github.com/${githunUser}.png`} />
+                      <img src={`https://github.com/${pessoa}.png`} />
                       <span>pessoa</span>
                     </a>
                   </li>
